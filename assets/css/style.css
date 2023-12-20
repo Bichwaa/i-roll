@@ -1,0 +1,16 @@
+.center{
+    display: grid;
+    place-items: center;
+    margin-top:20vh;
+    /* margin-left:10px; */
+}
+
+button {
+    margin: 70px 0;
+}
+
+@media only screen and (min-width: 600px) {
+    button {
+      width:45%;
+    }
+  }
